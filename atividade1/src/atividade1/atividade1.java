@@ -13,7 +13,7 @@ public class atividade1 {
 		while(cem<200) {
 			cem++;
 			if (cem%2 == 1) {
-				System.out.print(cem + " ");
+				System.out.print(cem );
 			}
 		}
 
