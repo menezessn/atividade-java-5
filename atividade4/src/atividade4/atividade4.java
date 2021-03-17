@@ -12,11 +12,11 @@ public class atividade4 {
 		int vezes = grava.nextInt();
 	
 		
-		int x=1;
 		
-		while(x<=vezes) {
-		System.out.println(x + ".isso é um teste! ");
-		x++;
+		
+		while(vezes>0) {
+		System.out.println(vezes + ".isso é um teste! ");
+		vezes--;
 		}
 
 	}

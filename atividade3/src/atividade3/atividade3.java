@@ -14,7 +14,7 @@ public class atividade3 {
 		
 		while(cont<=10) {
 			
-			System.out.println("Digite a nota " + cont + ":");
+			System.out.println("Digite a idade " + cont + ":");
 			nota=grava.nextFloat();
 			soma+=nota;
 			
@@ -24,7 +24,7 @@ public class atividade3 {
 		}
 		
 		media = soma/10;
-		System.out.println("A média das 10 provas foi: " + media);
+		System.out.println("A média das 10 idades foi: " + media);
 		
 	}
 
